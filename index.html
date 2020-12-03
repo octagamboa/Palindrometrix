@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrometrix</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Norican&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/p-icon.jpg" type="image/x-icon">
+
+</head>
+<body>
+
+    <div id="popup" class="popup panel panel-primary">
+        <h2>Welcome to</h2>
+        <h1>Palindrometrix</h1>
+       <h3>Rules are simple:<h3>
+           <p><ol>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus maxime tempore error minus? Illo soluta, nostrum neque tempora velit eum? Delectus perspiciatis sed quidem dolorum ex voluptas debitis ducimus ipsam?</ol>
+        <ol>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga tempore repellendus quod error eligendi maxime nesciunt ea ut officiis. Nostrum aut pariatur ut dolor vitae ipsam? Consequuntur eligendi debitis officiis.</ol>
+    <ol>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi natus expedita quibusdam, voluptatum maxime quae velit totam doloribus nesciunt obcaecati excepturi impedit sint cupiditate perferendis consequatur dolorem maiores non deleniti!</ol></p>
+            <!-- Now this is the button which closes the popup-->
+        <div class="panel-footer">
+            <button id="close" class="btn-close">AGREE!</button>
+        </div>
+            
+            <!-- and finally we close the POPUP FRAME-->
+            <!-- everything on it will show up within the popup so you can add more things not just an image -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="left-side">
+        <div>
+            <h3>Your score!</h3>
+        </div>
+            <div>
+                <p id="score">0</p>
+            </div>
+    </section>
+
+    <section id="principal">
+        <h1>Palindrometrix.</h1>
+            <div class="container">
+                <h3>Complete with a Palindrome word and check the answer!</h3>
+                    <input type= “text” name="form" placeholder="Write a word..." id="input-word" value="">
+                    <p class="btn-grad" id="input-btn">Check </p>
+            </div>
+
+                <div id="answer-screen">
+                    <p></p>
+                </div>
+    </section>
+
+    <footer>
+        <p>&copy; Palindrometrix | 2021</p>
+    </footer>
+
+    
+
+<script src="app.js"></script>
+</body>
+</html>
